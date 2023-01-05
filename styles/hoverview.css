@@ -1,0 +1,58 @@
+tr:nth-child(even) {
+    background-color: #73b4ff;
+}
+.td1:hover {
+    font-size: large;
+    background-image: url("../media/event-rural-writers.png");
+    background-size: cover;
+    padding: 0.1em;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.td2:hover {
+    font-size: large;
+    background-image: url("../media/comedy-show-event.png");
+    background-size: cover;
+    padding: 0.1em;
+    margin: 0;
+    height: 200px;
+    width: 300px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.td3:hover {
+    font-size: large;
+    background-image: url("../media/events.png");
+    background-size: cover;
+    padding: 0.1em;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.td4:hover {
+    font-size: large;
+    background-image: url("../media/event-artisan.png");
+    background-size: cover;
+    padding: 0.1em;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.td5:hover {
+    font-size: large;
+    background-image: url("../media/techtravleeat.jpg");
+    background-size: cover;
+    padding: 0.1em;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    color: blue;
+    text-align: center;
+}

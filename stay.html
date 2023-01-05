@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alpine Days - Stay</title>
+    <link href="styles/site.css" rel="stylesheet">
+    <link href="styles/aboutus.css" rel="stylesheet">
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="header_elements">
+            <a href="home.html"> <img src="media/alpine-days-logo.png" alt="alpine-days" class="center" id="logo"></a>
+            <h2 id="header_h2">Join our Exciting Events and acitivites.<br>
+                Stay at our luxiruous hotels.</h2>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="activites.html">Activites</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="stay.html">Stay</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Find your stay</h2>
+            <p>
+            <form>
+                <div class="row">
+                    <div class="col-20">
+                        <label for="type">Type of Accomodation</label>
+                        <select id="type" name="type">
+                            <option value="australia">Villa</option>
+                            <option value="canada">Hut</option>
+                            <option value="usa">Camping</option>
+                        </select>
+                    </div>
+                    <div class="col-20">
+                        <label for="rating">Rating</label>
+                        <input type="range" id="rating" name="rating" min="0" max="5">
+                    </div>
+                    <div class="col-20">
+                        <label for="Location">Location</label>
+                        <select id="Location" name="Location">
+                            <option value="australia">Woods</option>
+                            <option value="canada">Riverside</option>
+                            <option value="usa">Treetop</option>
+                        </select>
+                    </div>
+                    <div class="col-20">
+                        <label for="guests">No. of People</label>
+                        <input type="number" min="1" max="100" name="guests">
+                    </div>
+                </div>
+            </form>
+            </p>
+            <div id="flow">
+                <section class="activity-sec">
+                    <img src="media/room 1.jpg" alt="skiing" class="activity-image">
+                    <h3>SNOW LODGE</h3>
+                    <p>This beautiful complex is nestled next to the La Bête golf course, halfway between the Tremblant Resort and downtown Mont-Tremblant. </p>
+                </section>
+
+                <section class="activity-sec">
+                    <img src="media/room 2.jpg" alt="skiing" class="activity-image">
+                    <h3>HILL PINES</h3>
+                    <p>Each unit features a fully-equipped kitchen, a stone fireplace and a vaulted ceiling that adds plenty of character.</p>
+                </section>
+
+                <section class="activity-sec">
+                    <img src="media/room 3.jpg" alt="skiing" class="activity-image">
+                    <h3>ALGONQUIN</h3>
+                    <p>Choose from classic, convenient, and superior rooms, many of which offer magnificent mountain views.</p>
+                </section>
+
+                <section class="activity-sec">
+                    <img src="media/room 4.jpg" alt="skiing" class="activity-image">
+                    <h3>AUBERGE LE COSY TREMBLANT</h3>
+                    <p>You will find a wide variety of 4-star, 2 to 5 bedrooms condos that can accommodate up to 10 people. </p>
+                </section>
+
+                <section class="activity-sec">
+                    <img src="media/room 5.jpg" alt="skiing" class="activity-image">
+                    <h3>ALTITUDE</h3>
+                    <p>You’ll fall in love with this award-winning 2015 TripAdvisor Traveler’s Choice home in the « Top 25 B&Bs in Canada » category</p>
+                </section>
+
+                <section class="activity-sec">
+                    <img src="media/room 6.jpg" alt="skiing" class="activity-image">
+                    <h3>BONDURANT</h3>
+                    <p>Featuring a private entrance and terrace, this superb properties are ideal for small groups and families who want to enjoy everything Tremblant has to offer.</p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div id="image"><img src="media/alpine-days-logo.png" alt="alpine-days" class="center" height="90px"></div>
+            <div id="phone"><img src="media/phone.png" alt="phone" height="15px">&nbsp;&nbsp;<a id="mobile" href="tel:+1 (123) 456-7890">+1 (123) 456-7890</a>
+            <span id="desktop">+1 (123) 456-7890</span></div>
+            <div id="email">&nbsp;&nbsp;<a href="mailto: abc@alphinehills.com">abc@alphinehills.com</a><br></div>
+            <div id="address1">&nbsp;&nbsp;123 XYZ street, Alphine,<br>
+            ON, Canada. A1B 2C3.</div>
+            <div id="copy">Copyright &copy; 2022 Alpine Days Inc</div>
+    </footer>
+    </div>
+</body>
+
+</html>
